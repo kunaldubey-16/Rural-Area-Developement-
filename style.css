@@ -1,0 +1,728 @@
+*{
+	margin:0px;
+	padding: 0px;
+	font-family: century gothic;
+	
+}
+  body{
+  background:linear-gradient(135deg,rgb(110,13,193) 0%,rgb(250,42,143) 90%);
+  height: 680vh;
+
+}
+
+.main{
+	max-width: 1200px;
+	margin:auto;
+}
+.main ul{
+  float: right;
+
+  list-style: none;
+  margin-top: 85px;
+  margin-right: 20px;
+}
+
+.main ul li{
+    display: inline-block;
+    margin-right: 40px;
+
+}
+
+.main ul li a{
+	color:white;
+	text-decoration: none;
+	padding: 5px 0.2px;
+	transition: 0.5s ease;
+}
+
+.main ul li a.home{
+   border-bottom: 2px solid #cd99d4;
+   color: #fff;
+}
+
+.main ul li a:hover{
+	color: purple;
+	display:  
+}
+
+.main ul li a.signup{
+    border:1px solid #fff;
+    padding: 2px 20px;
+    border-radius: 12px;
+    border-style: round;
+    color: black;
+
+}
+
+.main ul li a.signup:hover{
+	background-color: #fff;
+	color:purple;
+}
+
+.main ul li a.login{
+    border:1px solid #fff;
+    padding: 2px 20px;
+    border-radius: 12px;
+    border-style: round;
+    color: black;
+
+}
+
+.main ul li a.login:hover{
+	background-color: #fff;
+	color:purple;
+}
+
+.logo p{
+    float: left;
+    position: absolute;
+    top: 27px;
+    color: white;
+    font-size: 30px;
+    left: 40px;
+}
+
+.title{
+    position: absolute;
+    top: 30%;
+    left:50%;
+    transition: translate(-50%,50%);
+    width: 100px;
+  height: 500px;
+  background:linear-gradient purple;
+}
+.title h1{
+  padding-top: 80px;  
+  padding-left: 120px;
+   color: #fff;
+   font-size: 55px;
+   font-weight: 300;
+   letter-spacing: -1px;
+}
+#projectidea{
+   position: absolute;
+   height: 590px;
+   border-style: round;
+   width: 100%;
+   background-color: linear-gradient(135deg,rgb(110,13,193) 0%,rgb(250,42,143) 100%);
+   top: 650px;
+
+
+
+
+
+}
+#projectidea h1{
+   padding-top: 50px;
+   padding-left: 580px;
+	position: absolute;
+	font-size: 30px;
+	color: white;
+
+}
+
+
+#projectidea img{
+    left: 30px;
+    height: 400px;
+    position: absolute;
+    top: 150px;
+}
+
+#projectidea h2{
+    position: absolute;   
+   color: #fff;
+   font-size: 25px;
+   font-weight: 300;
+   letter-spacing: -1px;
+   font-family: century gothic;
+   padding-top: 200px;
+   padding-left: 800px;
+
+}
+
+#projectidea li a{
+	padding-top: 330px;
+	color: white;
+    position: absolute;
+    padding-left: 800px;
+    letter-spacing: -1px;
+    font-size: 20px;
+    text-decoration: none;
+	list-style: none;
+ }  
+#projectidea li{
+	  text-decoration: none;
+	list-style: none;
+
+}
+
+#projectidea h2 li{
+	list-style: none;
+
+}
+#projectidea h2 a{
+    text-decoration: none;
+}
+
+#projectidea h2 a.share{
+
+     border:2px solid #fff;
+    padding: 10px 25px;
+    border-radius: 16px;
+    border-style: round;
+    color: white;
+}
+#projectidea h2 a.share:hover{
+     background-color: #fff;
+	color:purple;
+    }
+
+.suggestion{
+    position: absolute;
+    height: 1620px;
+    border-style: round;
+    width: 100%;
+    background-color:linear-gradient(135deg,rgb(110,13,193) 0%,rgb(250,42,143) 100%) ;
+    top: 1240px;
+
+    }
+
+.suggestion #reason h1{
+    position:absolute;
+	padding-top: 100px;
+    padding-left: 50px;
+	letter-spacing: -1px;
+	font-size: 35px;
+	color: white;
+
+}
+.suggestion #reason h2{
+    position: absolute;
+	padding-top: 160px;
+    padding-left: 50px;
+    letter-spacing: -1px;
+	font-size: 15px;
+	color: white;
+
+}
+
+
+
+.suggestion #reason1 img{
+  padding-top: 230px;
+    padding-left: 50px;
+    height: 290px;
+    width: 650px;
+  position: absolute;
+}
+
+.suggestion #reason1 h1{
+     position: absolute;
+	padding-top: 280px;
+    padding-left: 830px;
+	letter-spacing: -1px;
+	font-size: 25px;
+	color: white;
+}
+
+.suggestion #reason1 h2{
+    position: absolute;
+	padding-top: 330px;
+    padding-left: 830px;
+    font-family: century gothic;
+    letter-spacing: 0px;
+	font-size: 15px;
+	color: white;
+
+}
+
+
+
+
+
+.suggestion #reason2 img{
+	padding-top: 550px;
+    padding-left: 50px;
+    height: 290px;
+    width: 650px;
+	position: absolute;
+}
+
+.suggestion #reason2 h1{
+     position: absolute;
+	padding-top: 600px;
+    padding-left: 830px;
+	letter-spacing: -1px;
+	font-size: 25px;
+	color: white;
+}
+
+.suggestion #reason2 h2{
+    position: absolute;
+	padding-top: 650px;
+    padding-left: 830px;
+    font-family: century gothic;
+    letter-spacing: 0px;
+	font-size: 15px;
+	color: white;
+
+}
+
+
+
+
+
+.suggestion #reason3 img{
+	padding-top: 870px;
+    padding-left: 50px;
+    height: 290px;
+    width: 650px;
+	position: absolute;
+}
+
+.suggestion #reason3 h1{
+     position: absolute;
+	padding-top: 920px;
+    padding-left: 830px;
+	letter-spacing: -1px;
+	font-size: 25px;
+	color: white;
+}
+
+.suggestion #reason3 h2{
+    position: absolute;
+	padding-top: 970px;
+    padding-left: 830px;
+    letter-spacing: 0px;
+    font-family: century gothic;
+	font-size: 15px;
+	color: white;
+
+}
+
+#slide{
+    position: absolute;
+    height: 700px;
+    border-style: round;
+    width: 100%;
+    background-color:linear-gradient(135deg,rgb(110,13,193) 0%,rgb(250,42,143) 100%) ;
+    top: 2500px;
+}
+
+#slide h1{
+    position:absolute;
+  padding-top: 40px;
+    padding-left: 50px;
+  letter-spacing: -1px;
+  font-size: 35px;
+  color: white;
+  
+
+}
+#slide h2{
+    position: absolute;
+  padding-top: 100px;
+    padding-left: 50px;
+    letter-spacing: 0px;
+  font-size: 15px;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#education{
+    position: absolute;
+    height: 400px;
+    border-style: round;
+    width: 100%;
+    background-color:linear-gradient(135deg,rgb(110,13,193) 0%,rgb(250,42,143) 100%) ;
+    top: 3220px;
+}
+
+#education h2{
+    position: absolute;
+    padding-top: 30px;
+    padding-left: 50px;
+    letter-spacing: 0px;
+    font-size: 35px;
+    color: white;
+   
+}
+
+#education h3{
+    position: absolute;
+    padding-top: 90px;
+    padding-left: 50px;
+    text-align:left;
+    letter-spacing: 0px;
+    font-size: 15px;
+    color: white;
+   
+}
+.courses ul{
+  float: right;
+
+  list-style: none;
+  margin-top: 250px;
+  margin-right: 470px;
+}
+
+.courses ul li{
+    display: inline-block;
+    margin-right: 40px;
+  
+
+}
+.courses ul li a{
+  text-decoration: none;
+}
+
+
+
+
+.courses ul li a.ds{
+    border:2px solid #fff;
+    padding: 10px 25px;
+    border-radius: 16px;
+    border-style: round;
+    color: white;
+
+}
+
+.courses ul li a.ds:hover{
+  background-color: #fff;
+  color:purple;
+}
+
+
+.courses ul li a.dd{
+    border:2px solid #fff;
+    padding: 10px 25px;
+    border-radius: 16px;
+    border-style: round;
+    color: white;
+
+}
+
+.courses ul li a.dd:hover{
+  background-color: #fff;
+  color:purple;
+}
+
+
+.courses ul li a.cl{
+    border:2px solid #fff;
+    padding: 10px 25px;
+    border-radius: 16px;
+    border-style: round;
+    color: white;
+
+}
+
+.courses ul li a.cl:hover{
+  background-color: #fff;
+  color:purple;
+}
+
+
+.courses ul li a.java{
+    border:2px solid #fff;
+    padding: 10px 25px;
+    border-radius: 16px;
+    border-style: round;
+    color: white;
+
+}
+
+.courses ul li a.java:hover{
+  background-color: #fff;
+  color:purple;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#bottom {
+   position: absolute;
+    height: 35px;
+    border-style: round;
+    width: 100%;
+    background-color:linear-gradient(135deg,rgb(110,13,193) 0%,rgb(250,42,143) 100%) ;
+    top:3620px;
+
+}
+#bottom li{
+  list-style: none;
+
+
+}
+#bottom li a{
+  position: absolute;
+  padding-top: 5px; 
+  padding-left: 100px; 
+  letter-spacing: -1px;
+  font-size: 15px;
+  color: white;
+  text-decoration: none;   
+}
+#bottom li a.back{
+   border:.5px solid #fff;
+    padding: 10px 25px;
+    border-radius: 16px;
+    border-style: solid;
+    text-align: center;
+    color: white;
+    width: 96%;
+
+}
+
+#bottom li a.back:hover{
+    background-color: green;
+  color:purple;
+}
+
+#bottomtaskbar{
+    position: absolute;
+    height: 200px;
+    border-style: round;
+    width: 100%;
+    background-color:linear-gradient(135deg,rgb(110,13,193) 0%,rgb(250,42,143) 100%) ;
+    top:3670px;
+}
+
+#aboutus h1{
+   position: absolute;
+  padding-top: 20px;
+    padding-left: 90px;
+  letter-spacing: -1px;
+  font-size: 25px;
+  color: black;
+
+}
+#aboutus h2{
+   position: absolute;
+   padding-top: 90px;
+   padding-left: 90px;
+   letter-spacing: 0px;
+   font-size: 15px;
+   color: white;
+
+}
+
+.services h2{
+  text-decoration: none;
+   position: absolute;
+  padding-top: 20px;
+    padding-left: 550px;
+  letter-spacing: -1px;
+  font-size: 25px;
+  color: black;
+}
+
+.services ul{
+  float: right;
+
+  list-style: none;
+  margin-top: 75px;
+  margin-right: 20px;
+}
+
+.services ul li{
+    display: inline-block;
+    margin-right: 80px;
+
+}
+
+.services ul li a{
+  color:white;
+  text-decoration:inline;
+  padding: 5px 0.2px;
+  transition: 0.5s ease;
+}
+
+.carriers{
+    position: absolute;
+    height: 80px;
+    border-style: round;
+    width: 100%;
+    background-color:linear-gradient(135deg,rgb(110,13,193) 0%,rgb(250,42,143) 100%) ;
+    top:3900px;
+
+}
+
+
+.carriers h2{
+  text-decoration: none;
+   position: absolute;
+  padding-top: 10px;
+    padding-left: 50px;
+  letter-spacing: -1px;
+  font-size: 25px;
+  color: black;
+}
+
+.carriers ul{
+  float: right;
+  list-style: none;
+  margin-top: 15px;
+  margin-right: 200px;
+}
+
+.carriers ul li{
+    display: inline-block;
+    margin-right: 100px;
+
+}
+
+.carriers ul li a{
+  color:white;
+  text-decoration:inline;
+  padding: 5px 0.2px;
+  transition: 0.5s ease;
+}
+
+
+.sociallinks{
+
+  position: absolute;
+    height: 80px;
+    border-style: round;
+    width: 100%;
+    background-color:linear-gradient(135deg,rgb(110,13,193) 0%,rgb(250,42,143) 100%) ;
+    top:4000px;
+
+}
+
+.sociallinks h2{
+  text-decoration: none;
+   position: absolute;
+  padding-top: 20px;
+    padding-left: 50px;
+  letter-spacing: -1px;
+  font-size: 25px;
+  color: black;
+}
+
+.sociallinks ul{
+  float: right;
+  list-style: none;
+
+  margin-top: 5px;
+  margin-left: 200px;
+}
+
+.sociallinks ul a{
+  color:black;
+  text-decoration:inline;
+  padding: 5px 0.2px;
+  padding-left: 150px;
+  
+}
+
+
+
+
+.discover{
+
+  position: absolute;
+    height: 100px;
+    border-style: round;
+    width: 100%;
+    background-color:linear-gradient(135deg,rgb(110,13,193) 0%,rgb(250,42,143) 100%) ;
+    top:4100px;
+
+}
+
+.discover h2{
+  text-decoration: none;
+   position: absolute;
+  padding-top: 20px;
+    padding-left: 50px;
+  letter-spacing: -1px;
+  font-size: 25px;
+  color: black;
+}
+
+.discover ul{
+  float: right;
+  list-style: none;
+  margin-top: 8px;
+  margin-left: 120px;
+}
+
+.discover ul li{
+  display: inline-block;
+  margin-left: 180px;
+
+}
+.discover ul li a{
+  color:white;
+  font-size: 15px;
+  text-decoration:inline;
+  padding: 2px 0.1px;
+}
+
+
+.bottomlogo p{
+    float: left;
+    position: absolute;
+    top: 4300px;
+    color: white;
+    font-size: 30px;
+    left: 40px;
+    color: white;
+}
+
+
+.bottomlogo h2{
+    float: right;
+    position: absolute;
+    padding-left: 500px;
+    top: 4390px;
+    color: white;
+    font-size: 13px;
+    left: 40px;
+    color: white;
+}
+
+
+//privacy and policy page styling
+
+
+
+
+
+
+
